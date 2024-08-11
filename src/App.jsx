@@ -53,6 +53,11 @@ class App extends Component {
 
     return (
       <div>
+        <h1>Bot Battlr</h1>
+        <h3>
+          The one and only spot in the known universe where you can custom build
+          your own Bot Army!
+        </h3>
         <YourBotArmy army={army} removeBot={this.removeBotFromArmy} />
         <BotCollection bots={bots} addBot={this.addBotToArmy} />
       </div>
