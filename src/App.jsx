@@ -41,9 +41,9 @@ class App extends Component {
       army: prevState.army.filter((b) => b.id !== botId),
     }));
 
-    fetch(`http://localhost:8000/bots/${botId}`, {
-      method: "DELETE",
-    });
+    // fetch(`http://localhost:8000/bots/${botId}`, {
+    //   method: "DELETE",
+    // });
   };
 
   render() {

@@ -32,4 +32,16 @@ h3.header:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  background-color: rgb(210, 23, 23);
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  border: none;
+  size: 20px;
 }

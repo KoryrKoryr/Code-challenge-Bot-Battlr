@@ -19,7 +19,7 @@ function BotCard({ bot, handleClick, removeBot }) {
             removeBot(bot.id);
           }}
         >
-          Discharge
+          X
         </button>
       )}
     </div>
