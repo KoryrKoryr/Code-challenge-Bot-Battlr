@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import BotCollection from "./components/BotCollection";
 import YourBotArmy from "./components/YourBotArmy";
+import "./App.css";
 
 class App extends Component {
   constructor(props) {
@@ -53,10 +54,10 @@ class App extends Component {
 
     return (
       <div>
-        <h1>Bot Battlr</h1>
-        <h3>
-          The one and only spot in the known universe where you can custom build
-          your own Bot Army!
+        <h1 className="header">Bot Battlr</h1>
+        <h3 className="header">
+          !The one and only spot in the known universe where you can custom
+          build your own Bot Army!
         </h3>
         <YourBotArmy army={army} removeBot={this.removeBotFromArmy} />
         <BotCollection bots={bots} addBot={this.addBotToArmy} />

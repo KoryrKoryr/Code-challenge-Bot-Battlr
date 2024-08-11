@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(188, 188, 75);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.header {
+  text-align: center;
+}
+
+h1.header {
+  color: rgba(0, 0, 0, 0.603);
+}
+
+h3.header {
+  color: rgb(158, 36, 85);
+}
+
+h3.header:hover {
+  color: rgb(158, 36, 36);
+  text-decoration: wavy;
+}
+
+.bot-collection {
+  cursor: pointer;
+}
+
+.your-bot-army {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
