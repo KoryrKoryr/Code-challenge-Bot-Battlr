@@ -29,7 +29,7 @@
 
    - npm start
 
-4. Visit http://localhost:3000
+4. Visit https://code-challenge-bot-battlr-theta.vercel.app/
 
 5. JSON server:
    - Server is already hosted at:
