@@ -47,3 +47,6 @@
 ## Hosted URL
 
 - The app is hosted on vercel at:
+  - https://code-challenge-bot-battlr-theta.vercel.app/
+  - https://code-challenge-bot-battlr-denis-korirs-projects.vercel.app/
+  - https://code-challenge-bot-battlr-git-main-denis-korirs-projects.vercel.app/
