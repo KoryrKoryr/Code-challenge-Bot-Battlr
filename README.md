@@ -19,7 +19,7 @@
 
 1. Clone repository:
 
-   - git clone https://github.com/KoryrKoryr/Bank-of-Flatiron
+   - git clone https://github.com/KoryrKoryr/Code-challenge-Bot-Battlr
 
 2. Navigate to project folder and Install dependencies:
 
