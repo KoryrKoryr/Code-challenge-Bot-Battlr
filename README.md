@@ -31,12 +31,9 @@
 
 4. Visit http://localhost:3000
 
-5. Set-up JSON server:
-   - Install JSON server
-     - npm install -g json-server
-   - Run server
-     - npm run start-server
-     - This will start the server at: http://localhost:8000/bots
+5. JSON server:
+   - Server is already hosted at:
+     - https://json-server-vercel-blue-ten.vercel.app/bots
 
 ## Technologies USed
 
