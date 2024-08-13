@@ -11,9 +11,9 @@
 
 ## How to use
 
-**Build your bot army:** Click on a bot to add the bot to your bot army.
-**Release Bots:** Click on a bot to release the bot from your bot army.
-**Discharge Bots:** Click on the red "X" button to discharge the bot from your bot army, then refresh the page. This Deletes the bot forever.
+- **Build your bot army:** Click on a bot to add the bot to your bot army.
+- **Release Bots:** Click on a bot to release the bot from your bot army.
+- **Discharge Bots:** Click on the red "X" button to discharge the bot from your bot army, then refresh the page. This Deletes the bot forever.
 
 ## Installation
 
