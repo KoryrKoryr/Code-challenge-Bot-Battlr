@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:8000/bots")
+    fetch("https://json-server-vercel-blue-ten.vercel.app/bots/")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -41,7 +41,7 @@ class App extends Component {
       army: prevState.army.filter((b) => b.id !== botId),
     }));
 
-    fetch(`http://localhost:8000/bots/${botId}`, {
+    fetch(`https://json-server-vercel-blue-ten.vercel.app/bots/${botId}`, {
       method: "DELETE",
     });
   };

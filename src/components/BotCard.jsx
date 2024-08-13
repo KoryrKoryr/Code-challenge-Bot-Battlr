@@ -3,9 +3,12 @@ import React from "react";
 function BotCard({ bot, handleClick, removeBot }) {
   const handleDeleteBot = async () => {
     try {
-      const response = await fetch(`http://localhost:8000/bots/${bot.id}`, {
-        method: "DELETE",
-      });
+      const response = await fetch(
+        `https://json-server-vercel-blue-ten.vercel.app/bots/${bot.id}`,
+        {
+          method: "DELETE",
+        }
+      );
 
       if (response.ok) {
         removeBot(bot.id);
