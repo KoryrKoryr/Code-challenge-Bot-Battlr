@@ -7,6 +7,7 @@ function YourBotArmy({ army, removeBot }) {
   };
   return (
     <div className="your-bot-army">
+      <h3 className="your-bot-army-header">Your Bot Army</h3>
       {army.map((bot) => (
         <BotCard
           key={bot.id}

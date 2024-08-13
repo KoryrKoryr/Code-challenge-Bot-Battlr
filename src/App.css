@@ -35,6 +35,10 @@ h3.header:hover {
   cursor: pointer;
 }
 
+.your-bot-army-header {
+  text-align: center;
+}
+
 button {
   cursor: pointer;
   background-color: rgb(210, 23, 23);
